@@ -3,7 +3,7 @@ import DynamicValues from "@/data/data";
 
 const WhoWeAreSection = () => {
   return (
-    <section className="py-12 px-12 lg:px-20 bg-gray-100">
+    <section className="py-12 px-12 lg:px-20">
       <div className="text-center mb-12">
         <h2 className="text-3xl lg:text-4xl font-bold">Who We Are</h2>
       </div>
