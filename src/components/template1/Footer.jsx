@@ -1,10 +1,11 @@
 import React from "react";
 import logoWhite from "@/assets/logo-white.png";
 import DynamicValues from "@/data/data";
+import Icon from "@/components/ui/Icon";
 
 const Footer = () => {
   return (
-    <section className="py-12 px-6 lg:px-20 bg-blue-500">
+    <section className="py-12 px-6 lg:px-20 bg-blue-500 text-white">
       <div className="grid grid-cols-2 gap-4 mb-4">
         <div>
           <a href="/">
@@ -16,7 +17,7 @@ const Footer = () => {
             Applicant, see the privacy notice for further details.
           </p>
         </div>
-        <div className="flex justify-end text-white space-x-6">
+        <div className="flex justify-end space-x-6">
           <nav>
             <ul className="flex space-x-4">
               <li>
@@ -45,9 +46,13 @@ const Footer = () => {
       </div>
       <hr className="bg-white" />
       <div className="py-4 flex justify-between items-center">
-        <p className="text-white">
-          &copy; FinTech Hive (PVT) Ltd. All Rights Reserved
-        </p>
+        <p>&copy; FinTech Hive (PVT) Ltd. All Rights Reserved</p>
+        <div className="flex items-center space-x-6">
+          <Icon icon="akar-icons:facebook-fill" className="text-xl" />
+          <Icon icon="akar-icons:twitter-fill" className="text-xl" />
+          <Icon icon="akar-icons:instagram-fill" className="text-xl" />
+          <Icon icon="akar-icons:linkedin-fill" className="text-xl" />
+        </div>
       </div>
     </section>
   );
