@@ -1,6 +1,5 @@
 import React from "react";
 import logoWhite from "@/assets/logo-white.png";
-import DynamicValues from "@/data/data";
 import Icon from "@/components/ui/Icon";
 
 const Footer = () => {

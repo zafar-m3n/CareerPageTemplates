@@ -3,6 +3,7 @@ import Header from "@/components/template1/Header";
 import HeroSection from "@/components/template1/HeroSection";
 import WhoWeAreSection from "@/components/template1/WhoWeAreSection";
 import WhatWeOfferSection from "@/components/template1/WhatWeOfferSection";
+import JobsSection from "@/components/template1/JobsSection";
 import HowToJoin from "@/components/template1/HowToJoin";
 import Footer from "@/components/template1/Footer";
 
@@ -13,6 +14,7 @@ const Template1 = () => {
       <HeroSection />
       <WhoWeAreSection />
       <WhatWeOfferSection />
+      <JobsSection />
       <HowToJoin />
       <Footer />
     </div>
