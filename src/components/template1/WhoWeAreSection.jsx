@@ -3,11 +3,11 @@ import DynamicValues from "@/data/data";
 
 const WhoWeAreSection = () => {
   return (
-    <section className="py-12 px-12 lg:px-20">
+    <section className="py-12 px-6 lg:px-20">
       <div className="text-center mb-12">
         <h2 className="text-3xl lg:text-4xl font-bold">Who We Are</h2>
       </div>
-      <div className="flex items-center justify-between space-x-4">
+      <div className="flex flex-col md:flex-row items-center md:justify-between space-y-8 md:space-y-0 md:space-x-4">
         <div>
           <p className="text-lg lg:text-xl mb-6 font-bold max-w-3xl">
             Empowering Human Insight with AI Precision. We harness the full
@@ -25,7 +25,7 @@ const WhoWeAreSection = () => {
             })}
           </div>
         </div>
-        <div className="flex justify-center items-center max-w-3xl">
+        <div className="flex justify-center items-center w-full md:w-auto md:max-w-3xl">
           <img
             src="https://picsum.photos/400/200?grayscale"
             alt="Who We Are"

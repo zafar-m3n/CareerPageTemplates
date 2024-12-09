@@ -293,6 +293,7 @@ const DynamicValues = {
   seniority,
   jobType,
   employeeTestimonials,
+  jobs,
 };
 
 export default DynamicValues;

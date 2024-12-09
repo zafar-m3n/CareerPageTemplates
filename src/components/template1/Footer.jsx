@@ -5,7 +5,7 @@ import Icon from "@/components/ui/Icon";
 const Footer = () => {
   return (
     <section className="py-12 px-6 lg:px-20 bg-blue-500 text-white">
-      <div className="grid grid-cols-2 gap-4 mb-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
         <div>
           <a href="/">
             <img src={logoWhite} alt="Logo" className="h-10 w-auto mb-4" />
@@ -16,7 +16,7 @@ const Footer = () => {
             Applicant, see the privacy notice for further details.
           </p>
         </div>
-        <div className="flex justify-end space-x-6">
+        <div className="flex justify-center md:justify-end space-x-6">
           <nav>
             <ul className="flex space-x-4">
               <li>
@@ -44,9 +44,9 @@ const Footer = () => {
         </div>
       </div>
       <hr className="bg-white" />
-      <div className="py-4 flex justify-between items-center">
-        <p>&copy; FinTech Hive (PVT) Ltd. All Rights Reserved</p>
-        <div className="flex items-center space-x-6">
+      <div className="py-4 flex justify-between items-center flex-col-reverse md:flex-row">
+        <p className="mb-2">&copy; FinTech Hive (PVT) Ltd. All Rights Reserved</p>
+        <div className="flex items-center space-x-6 mb-4">
           <Icon icon="akar-icons:facebook-fill" className="text-xl" />
           <Icon icon="akar-icons:twitter-fill" className="text-xl" />
           <Icon icon="akar-icons:instagram-fill" className="text-xl" />
