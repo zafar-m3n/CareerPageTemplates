@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "@/assets/logo.png";
 import backgroundImage from "@/assets/template1-bg.png";
 import DynamicValues from "@/data/data";
 
