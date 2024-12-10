@@ -67,14 +67,6 @@ const Header = () => {
                 href="#"
                 className="block py-2 px-3 md:p-0 text-black hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500"
               >
-                Interview Process
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 px-3 md:p-0 text-black hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500"
-              >
                 Available Positions
               </a>
             </li>
@@ -83,7 +75,15 @@ const Header = () => {
                 href="#"
                 className="block py-2 px-3 md:p-0 text-black hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500"
               >
-                Testimonials
+                Employee Testimonials
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="block py-2 px-3 md:p-0 text-black hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500"
+              >
+                How To Apply
               </a>
             </li>
           </ul>
