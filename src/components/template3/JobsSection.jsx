@@ -22,10 +22,7 @@ const JobsSection = () => {
                   id={`department-${index}`}
                   className="form-checkbox h-5 w-5 text-blue-500 border-gray-300 rounded focus:ring-blue-400"
                 />
-                <label
-                  htmlFor={`department-${index}`}
-                  className="ml-3 text-sm text-gray-700"
-                >
+                <label htmlFor={`department-${index}`} className="ml-3 text-sm text-gray-700">
                   {department.label}
                 </label>
               </div>
@@ -40,10 +37,7 @@ const JobsSection = () => {
                   id={`location-${index}`}
                   className="form-checkbox h-5 w-5 text-blue-500 border-gray-300 rounded focus:ring-blue-400"
                 />
-                <label
-                  htmlFor={`location-${index}`}
-                  className="ml-3 text-sm text-gray-700"
-                >
+                <label htmlFor={`location-${index}`} className="ml-3 text-sm text-gray-700">
                   {location}
                 </label>
               </div>
@@ -58,10 +52,7 @@ const JobsSection = () => {
                   id={`jobType-${index}`}
                   className="form-checkbox h-5 w-5 text-blue-500 border-gray-300 rounded focus:ring-blue-400"
                 />
-                <label
-                  htmlFor={`jobType-${index}`}
-                  className="ml-3 text-sm text-gray-700"
-                >
+                <label htmlFor={`jobType-${index}`} className="ml-3 text-sm text-gray-700">
                   {type.label}
                 </label>
               </div>
@@ -74,11 +65,13 @@ const JobsSection = () => {
               <JobCard key={index} job={job} />
             ))}
           </div>
-          <div className="text-center">
-            <button className="px-6 py-3 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition">
-              Load More
-            </button>
-          </div>
+          {DynamicValues.jobs.length > 10 && (
+            <div className="text-center">
+              <button className="px-6 py-3 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition">
+                Load More
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </section>

@@ -10,10 +10,9 @@ const Footer = () => {
           <a href="/">
             <img src={logoWhite} alt="Logo" className="h-10 w-auto mb-4" />
           </a>
-          <p className="text-white">
-            Cleveri collects and processes personal data in accordance with
-            applicable data protection laws. If you are a European Job
-            Applicant, see the privacy notice for further details.
+          <p className="text-white text-justify">
+            Cleveri collects and processes personal data in accordance with applicable data protection laws. If you are
+            a European Job Applicant, see the privacy notice for further details.
           </p>
         </div>
         <div className="flex justify-center md:justify-end space-x-6">

@@ -14,17 +14,17 @@ const Header = () => {
         <a href="/" className="flex items-center space-x-3">
           <img src={logo} className="h-8" alt="Logo" />
         </a>
-        <div className="flex md:order-2 space-x-3 md:space-x-0">
+        <div className="flex lg:order-2 space-x-3 lg:space-x-0">
           <button
             type="button"
-            className="text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-4 py-2 text-center"
+            className="text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-4 md:px-8 lg:px-4 py-2 text-center"
           >
             Apply
           </button>
           <button
             data-collapse-toggle="navbar-cta"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
             aria-controls="navbar-cta"
             aria-expanded={isMenuOpen ? "true" : "false"}
             onClick={toggleMenu}
@@ -48,42 +48,42 @@ const Header = () => {
           </button>
         </div>
         <div
-          className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${
+          className={`items-center justify-between w-full lg:flex lg:w-auto lg:order-1 ${
             isMenuOpen ? "block" : "hidden"
           }`}
           id="navbar-cta"
         >
-          <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 md:flex-row md:mt-0 md:border-0 md:bg-white">
+          <ul className="flex flex-col font-medium p-4 lg:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 lg:space-x-8 lg:flex-row lg:mt-0 lg:border-0 lg:bg-white">
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 md:p-0 text-white bg-blue-500 rounded md:bg-transparent md:text-blue-500"
+                className="block py-2 px-3 lg:p-0 text-white bg-blue-500 rounded lg:bg-transparent lg:text-blue-500"
               >
-                Our Values
+                Who We Are
               </a>
             </li>
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 md:p-0 text-black hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500"
+                className="block py-2 px-3 lg:p-0 text-black hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-blue-500"
               >
-                Available Positions
+                What We Offer
               </a>
             </li>
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 md:p-0 text-black hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500"
+                className="block py-2 px-3 lg:p-0 text-black hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-blue-500"
               >
-                Employee Testimonials
+                Our Careers
               </a>
             </li>
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 md:p-0 text-black hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500"
+                className="block py-2 px-3 lg:p-0 text-black hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-blue-500"
               >
-                How To Apply
+                How To Join Us
               </a>
             </li>
           </ul>

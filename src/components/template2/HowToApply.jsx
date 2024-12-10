@@ -3,7 +3,7 @@ import DynamicValues from "@/data/data";
 import Icon from "@/components/ui/Icon";
 
 const HowToApply = () => {
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   const toggleAccordion = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
@@ -25,14 +25,7 @@ const HowToApply = () => {
                   className="w-full text-left py-3 px-4 bg-gray-100 border-b text-lg font-semibold flex justify-between items-center"
                 >
                   <span>{item.title}</span>
-                  <Icon
-                    icon={
-                      activeIndex === index
-                        ? "heroicons:minus"
-                        : "heroicons:plus"
-                    }
-                    className="ml-2"
-                  />
+                  <Icon icon={activeIndex === index ? "heroicons:minus" : "heroicons:plus"} className="ml-2" />
                 </button>
                 <div
                   className={`text-gray-700 overflow-hidden transition-all duration-300 ease-in-out ${

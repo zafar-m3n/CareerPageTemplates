@@ -5,15 +5,14 @@ import DynamicValues from "@/data/data";
 const HeroSection = () => {
   return (
     <section className="flex flex-col md:flex-row bg-white h-auto">
-      {/* Image Section */}
-      <div className="w-full md:w-1/2 h-64 md:h-96">
+      <div className="w-full md:w-1/2 h-64 md:h-96 p-8">
         <img
           src={backgroundImage}
           alt="Hero"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover rounded-md"
         />
       </div>
-      <div className="flex flex-col justify-center items-center md:items-end text-center md:text-right px-6 md:pr-20 w-full md:w-1/2 py-6 md:py-0">
+      <div className="flex flex-col justify-center items-center md:items-end text-center md:text-right px-6 lg:pr-20 w-full md:w-1/2 py-6 md:py-0">
         <div className="text-black max-w-2xl">
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
             {DynamicValues.heroText.title}
