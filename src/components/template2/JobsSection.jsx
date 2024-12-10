@@ -15,7 +15,7 @@ const JobsSection = () => {
           className="w-full py-3 px-4 bg-white border border-black rounded-md"
         />
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-8">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mb-8">
         <div>
           <select className="w-full py-3 px-4 bg-white border border-black rounded-md">
             <option value="">Job Type</option>
