@@ -148,7 +148,7 @@ const seniority = [
   { value: "manager-level", label: "Manager Level" },
   { value: "seniour-manager-level", label: "Senior Manager Level" },
   { value: "director", label: "Director Level" },
-  { value: "executive", label: "executive" },
+  { value: "executive", label: "Executive" },
 ];
 
 const jobType = [
@@ -169,7 +169,7 @@ const jobs = [
     department: "Engineering",
     jobType: "Full-time",
     seniority: "Junior",
-    location: "Pamankada office",
+    location: "Pamankada Office",
     posted: 3,
   },
   {
@@ -178,7 +178,7 @@ const jobs = [
     department: "Marketing",
     jobType: "Full-time",
     seniority: "Senior",
-    location: "Nugegoda office",
+    location: "Nugegoda Office",
     posted: 5,
   },
   {
@@ -187,7 +187,7 @@ const jobs = [
     department: "Operations",
     jobType: "Full-time",
     seniority: "Mid-level",
-    location: "Pamankada office",
+    location: "Pamankada Office",
     posted: 7,
   },
   {
@@ -196,7 +196,7 @@ const jobs = [
     department: "Engineering",
     jobType: "Contract",
     seniority: "Junior",
-    location: "Nugegoda office",
+    location: "Nugegoda Office",
     posted: 2,
   },
   {
@@ -205,7 +205,7 @@ const jobs = [
     department: "Human Resources",
     jobType: "Full-time",
     seniority: "Mid-level",
-    location: "Pamankada office",
+    location: "Pamankada Office",
     posted: 6,
   },
   {
@@ -214,7 +214,7 @@ const jobs = [
     department: "Design",
     jobType: "Full-time",
     seniority: "Senior",
-    location: "Nugegoda office",
+    location: "Nugegoda Office",
     posted: 10,
   },
   {
@@ -223,7 +223,7 @@ const jobs = [
     department: "Engineering",
     jobType: "Full-time",
     seniority: "Mid-level",
-    location: "Pamankada office",
+    location: "Pamankada Office",
     posted: 1,
   },
   {
@@ -232,7 +232,7 @@ const jobs = [
     department: "Product",
     jobType: "Full-time",
     seniority: "Senior",
-    location: "Nugegoda office",
+    location: "Nugegoda Office",
     posted: 14,
   },
   {
@@ -241,7 +241,7 @@ const jobs = [
     department: "Support",
     jobType: "Full-time",
     seniority: "Junior",
-    location: "Pamankada office",
+    location: "Pamankada Office",
     posted: 8,
   },
   {
@@ -250,7 +250,7 @@ const jobs = [
     department: "Engineering",
     jobType: "Full-time",
     seniority: "Mid-level",
-    location: "Nugegoda office",
+    location: "Nugegoda Office",
     posted: 4,
   },
 ];

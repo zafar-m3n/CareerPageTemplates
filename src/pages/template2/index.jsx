@@ -4,6 +4,8 @@ import Footer from "@/components/template2/Footer";
 import HeroSection from "@/components/template2/HeroSection";
 import Benefits from "@/components/template2/Benefits";
 import Testimonials from "@/components/template2/Testimonials";
+import JobsSection from "@/components/template2/JobsSection";
+import HowToApply from "@/components/template2/HowToApply";
 
 const Template2 = () => {
   return (
@@ -11,7 +13,9 @@ const Template2 = () => {
       <Header />
       <HeroSection />
       <Benefits />
+      <JobsSection />
       <Testimonials />
+      <HowToApply />
       <Footer />
     </div>
   );
